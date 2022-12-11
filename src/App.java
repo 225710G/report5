@@ -5,6 +5,9 @@ public class App {
             System.out.println(str.length());
         } catch (NullPointerException e) {
             System.out.println("NullPointerException error was occured!");
+            System.out.println(e.getMessage());
         }
     }
 }
+
+
